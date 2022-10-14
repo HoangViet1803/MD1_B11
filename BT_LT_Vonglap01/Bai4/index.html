@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bai4</title>
+</head>
+<body>
+<script>
+  let num = 5 ** (1 / 2);
+  for (let i = 1; ; i++) {
+    let fib = parseInt(1 / num * (((1 + num) / 2) ** i - ((1 - num) / 2) ** i));
+    if (fib % 5 == 0) {
+      alert('so dau tien trong Fibonaci % 5 la : ' + fib);
+      break;
+    }
+  }
+</script>
+</body>
+</html>
